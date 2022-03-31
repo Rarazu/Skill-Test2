@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Data from './pages/Data'
+import New from './pages/New';
+
+// load library bootstrap for styling
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <New />
   </React.StrictMode>,
   document.getElementById('root')
 );
