@@ -1,3 +1,13 @@
+# Skill-Test2
+## Soal 2
+1. Ambil data menggunakan http request ke API
+2. GET https://devel.bebasbayar.com/web/test_programmer.php
+3. Content-Type: application/x-www-form-urlencoded
+4. Accept: application/json
+5. Tampilkan data di suatu tabel, data yang ditampilkan adalah date, label, nb_visits, status
+6. Untuk masing2 baris ada action untuk lihat detail, saat diklik detail maka akan menampilkan popup berisi seluruh data pada baris itu
+7. Tambahkan tombol untuk melakukan reload
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
